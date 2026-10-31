@@ -1,0 +1,28 @@
+/* English navigation and parallel reading — overrides only; the source Chinese is preserved. */
+.language-toggle{display:flex;gap:2px;align-items:center;border:1px solid var(--border);border-radius:8px;padding:2px;white-space:nowrap}
+.language-toggle button{min-width:auto!important;padding:0 8px!important;border:0!important;border-radius:5px!important;font-size:12px!important;height:29px!important}
+.language-toggle button[aria-pressed="true"]{color:var(--paper2);background:var(--accent)}
+.language-intro span{display:block}.en-small{display:block;font-size:.82em;font-weight:400;letter-spacing:0;font-family:Georgia,"Times New Roman",serif;margin:7px 0 0;line-height:1.7;color:var(--muted)}
+.bilingual-paragraph{margin:0 0 1em}.prose .bilingual-paragraph p{margin:0;text-indent:2em}.prose .bilingual-paragraph .bilingual-en{font-family:Georgia,"Iowan Old Style","Baskerville",serif;line-height:1.84;letter-spacing:0;overflow-wrap:normal;hyphens:auto;text-indent:0;font-size:.96em}
+:root[data-reader-mode="both"] .bilingual-paragraph.has-en{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;align-items:start;padding:15px 0;border-bottom:1px solid var(--border)}
+:root[data-reader-mode="both"] .bilingual-paragraph.has-en .bilingual-zh{border-right:1px solid var(--border);padding-right:18px}
+:root[data-reader-mode="en"] .bilingual-paragraph.has-en .bilingual-zh{display:none}
+:root[data-reader-mode="en"] .bilingual-paragraph.has-en .bilingual-en{padding-bottom:.55em}
+:root[data-reader-mode="en"] .prose{line-height:1.95}
+:root[data-reader-mode="en"] .prose .bilingual-paragraph:not(.has-en) .bilingual-zh{color:var(--muted)}
+:root[data-reader-mode="both"] .prose{padding-left:clamp(20px,3vw,50px);padding-right:clamp(20px,3vw,50px)}
+:root[data-reader-mode="both"] .reader-layout{grid-template-columns:minmax(0,970px) 200px;max-width:1300px;gap:22px}
+:root[data-reader-mode="both"] .reading{max-width:none}
+.name-glossary{display:grid;grid-template-columns:220px 1fr;gap:0 20px;line-height:1.7}.name-glossary dt,.name-glossary dd{padding:9px 0;border-bottom:1px solid var(--border);margin:0}.name-glossary dt{font-weight:bold}
+.translation-guide{font:17px/1.9 Georgia,"Times New Roman",serif;max-width:880px;margin:auto}.translation-guide h1{font-size:clamp(29px,5vw,42px)}.translation-guide h1 small{font-size:.65em;color:var(--muted)}.translation-guide h2{font-size:25px;margin-top:34px}
+@media(max-width:1000px){:root[data-reader-mode="both"] .reader-layout{display:block;max-width:850px}}
+@media(max-width:660px){.language-toggle button{font-size:11px!important;padding:0 5px!important}.mast-inner{gap:5px}.tools{gap:3px}:root[data-reader-mode="both"] .bilingual-paragraph.has-en{display:block}.bilingual-paragraph.has-en .bilingual-zh{border-right:none!important;padding:0 0 10px!important}.bilingual-paragraph.has-en .bilingual-en{border-left:3px solid var(--accent2);padding:6px 0 6px 13px}.name-glossary{grid-template-columns:1fr}.name-glossary dd{margin-bottom:15px}}
+:root[data-reader-mode="en"] .hero h1{letter-spacing:.025em;padding-left:0;font-size:clamp(38px,5.4vw,62px)}
+:root[data-reader-mode="both"] .hero h1{letter-spacing:.045em;padding-left:0;font-size:clamp(33px,5vw,54px)}
+.chapter-title-zh,.chapter-title-en{display:block;max-width:100%;overflow-wrap:normal;word-break:normal}
+.chapter-title-en{font-family:Georgia,"Times New Roman",serif;letter-spacing:0;font-size:.8em;line-height:1.45;margin-top:8px;font-weight:500}
+:root[data-reader-mode="both"] .reader-head h1{font-size:30px;letter-spacing:.03em;padding:0;margin-bottom:18px}
+:root[data-reader-mode="en"] .reader-head h1{letter-spacing:0;font-family:Georgia,"Times New Roman",serif}
+
+/* Reading modes share chapter layout. */
+:root[data-reader-mode="en"] .bilingual-paragraph:not(.has-en) .bilingual-zh{color:var(--ink);opacity:.88}
