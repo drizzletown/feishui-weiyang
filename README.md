@@ -9,12 +9,12 @@
 建元十一年，王猛病逝前请苻坚十年不伐晋。北方一统的旗帜之下，各族旧部、地方豪强与朝廷法令仍在彼此拉扯。苻坚着手整顿军制、清查田籍，试图让征服得来的山河成为可以共同生活的天下。长安与邺城疑案相继浮起，羌原旧盟再起波澜；淝水之畔，天王作出了与史书不同的选择。此后数十年，兵事、洪水、饥荒与人口迁徙不断考验改革的成败。江南北府军中，刘裕逐渐崛起；江北的帝王已经老去。战场上的胜负终会过去，留下的还有姓名、田地、粮食与归乡的路。当山河再次走向统一，谁能承担统一之后的漫长日常？淝水东流，未央未央。
 
 ## 在线阅读
-
-- [作品首页](docs/index.html)
-- [六卷目录](docs/contents.html)
-- [从第一章开始](docs/chapters/001.html)
-- [阅读指南](docs/guide.html)
-- [版权声明](docs/copyright.html)
+https://drizzletown.github.io/feishui-weiyang/
+- [作品首页](https://drizzletown.github.io/feishui-weiyang/index.html)
+- [六卷目录](https://drizzletown.github.io/feishui-weiyang/contents.html)
+- [从第一章开始](https://drizzletown.github.io/feishui-weiyang/chapters/001.html)
+- [阅读指南](https://drizzletown.github.io/feishui-weiyang/guide.html)
+- [版权声明](https://drizzletown.github.io/feishui-weiyang/copyright.html)
 
 网站提供中文、English和中英逐段对照，支持字号、明暗主题、目录导航与检索。不设整书下载入口。
 
